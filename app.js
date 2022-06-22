@@ -29,7 +29,7 @@ let img = gsap.timeline({
 })
 
 img.fromTo('.img-1',
-{opacity: 0}, {clipPath:"circle(75%)", opacity: 1})
+{opacity: .2}, {clipPath:"circle(75%)", opacity: 1})
 
 img.fromTo('.img-2',
-{opacity: 0 }, {clipPath:"circle(75%)", opacity: 1})
+{opacity: .2}, {clipPath:"circle(75%)", opacity: 1})
